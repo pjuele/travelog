@@ -26,8 +26,8 @@ export default async function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className={bodyFont.className}>
-          <div className="p-5 float-right flex items-center justify-between">
+        <body className={bodyFont.className + " overflow-hidden"}>
+          <div className="p-5 float-right flex flex-column justify-start">
               <div>{user?.emailAddresses[0].emailAddress || ""}&nbsp;</div>
               <UserButton afterSignOutUrl="/"/>
           </div>

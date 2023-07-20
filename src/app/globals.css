@@ -25,7 +25,7 @@ a:hover {
 }
 
 body {
-  font-size: 1rem;
+  font-size: 2.5vmin;
 }
 
 h1,
@@ -38,19 +38,19 @@ h5 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: xx-large;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: x-large;
 }
 
 h3 {
-  font-size: 1.9rem;
+  font-size: large;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: larger;
 }
 
 body {

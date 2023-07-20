@@ -2,7 +2,6 @@
 import { QueryOptions, graphSqlOptionsFactory } from "../../util/graphSqlOptionsFactory.fn";
 import { ValidLocales } from "../../util/languageConstants"
 
-
 // . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 export type CmsPostData = {
     id: string,
